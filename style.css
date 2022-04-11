@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --fonte1: 'Sriracha', cursive;
+    --fonte2: 'Passion One', cursive;
+}
+
+p {
+    font-family: var(--fonte1)
+}
+
+/*------Header--------------------------------------------------------------*/
+
+header {
+    background-color: black;
+    padding: 60px;
+}
+
+header > span {
+    font-size: 6rem;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;  
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+    font-family: var(--fonte2);
+    text-align: center;
+    font-size: 5.8em;
+    font-weight: 700;
+    font-variant: small-caps;   
+    letter-spacing: 3px;
+}
+
+/*------body--------------------------------------------------------------*/
+
+section {
+    padding: 70px 40px 40px 40px;
+    line-height: 6vw;
+    font-size: 3.5vw;
+}
+
+
+
+/*------background-image----------------------------------------------------------*/
+
+#flower {
+    padding-left: -20px;
+    background: url(imagens/flor.jpg) center right fixed;
+    background-size: cover;  
+    box-shadow: inset 0px -5px 5px rgba(0, 0, 0, 0.452), inset 0px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+#papiro {
+    padding-left: -20px;
+    background: url(imagens/papiro.jpg) center right fixed;
+    background-size: cover;
+    box-shadow: inset 0px -5px 5px rgba(0, 0, 0, 0.452), inset 0px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+div {
+    padding: 10px 10px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.178);
+    max-width: fit-content;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/*------footer----------------------------------------------------------*/
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
